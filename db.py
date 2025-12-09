@@ -4,9 +4,9 @@ from pymysql.cursors import DictCursor
 
 def get_conn():
     return pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="",
+        host="147.50.254.12",
+        user="finorfin_pic",
+        password="G5F&2!taRct9sdyv",
         database="pic",
         charset="utf8mb4",
         cursorclass=pymysql.cursors.DictCursor
